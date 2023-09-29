@@ -34,11 +34,7 @@ public class Ejercicio11 {
             
              System.out.println( num2 + "es superior a " + num1);
                     }
-        
             
-        }
-    
-    
     
     
     
