@@ -34,6 +34,9 @@ public class Ejercicio13 {
             System.out.println("Los numeros en orden descendentes son : "+ numero2 + "," + numero1 );
            }
         
+        
+        
+        
     }
     
 }
