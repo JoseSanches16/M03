@@ -1,20 +1,43 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
-package clase;
 
-/**
- *
- * @author sanch
- */
+package clase;
+import java.util.Scanner;
 public class CLASE {
 
-    /**
-     * @param args the command line arguments
-     */
+
     public static void main(String[] args) {
-        // TODO code application logic here
+        Scanner sc = new Scanner(System.in);
+        
+        int edad;
+        char clase;      //esto es para caracteres
+         System.out.println("A que clase vas?");
+         clase = sc.next() .charAt(0);   // para recoger una caracter
+         System.out.println("vas al grupo " + clase);
+         System.out.println("Que edad tienes?");
+         edad = sc.nextInt();
+         System.out.println("Tienes" + edad + "años" );
+        
+        
+        if (clase=='A' && edad>=18)
+        {
+            System.out.println("vas a la clase correcta" + clase);
+        }
+            
+        else if (( clase=='B' || clase=='C' ) && edad < 18 )     // or es ||
+        {
+            System.out.println("vas a la clase correcta" + clase);
+            
+        }
+            
+            
+            
+            
+        }
+        
     }
+        
     
-}
+    
+    
+    
+    
+   
