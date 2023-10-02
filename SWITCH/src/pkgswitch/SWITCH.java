@@ -7,7 +7,7 @@ public class SWITCH {
  
  char mes ;
  
-        System.out.println("Introdcue una de las siguientes letras  E,F,M,A ");
+        System.out.println("Introdcue una de las siguientes letras  E,F,M,A,Z ");
         mes = sc.next().charAt(0);
         
         switch (mes) {
@@ -33,13 +33,15 @@ public class SWITCH {
                 System.out.println("Abril ");
         break;
         
+         case 'Z' : 
+                System.out.println("Agosto ");
+        break;
         
-  
         
         default:
                 System.out.println("Letra no valido");
         break;
-        
+       
         
         }
         
