@@ -1,20 +1,64 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
-package ejercicio.pkg4.clash.royale;
 
-/**
- *
- * @author sanch
- */
+package ejercicio.pkg4.clash.royale;
+import  java.util.Scanner;
+
 public class Ejercicio4ClashRoyale {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Scanner sc = new Scanner(System.in);
+        
+        
+        
+          int  copas; //  para numeros enteros 
+    char cartas; //  char  un caracter
+    
+    
+        System.out.println("cuantass copas tienes? ");
+     copas=sc.nextInt();
+     
+     
+    
+    
+    if ( copas >=0  &&  copas <2000){
+    
+        System.out.println(" que carta eliges Mago electrico (m) o Mega esbirro (e)   :");
+        cartas = sc.next().charAt(0); // para un  caracter 
+        // cuando es numero entero pongo sc.int
+        
+        if (cartas == 'm' ){
+        
+            System.out.println("has elegido el mago electrico ");
+            
+        }
+        
+        
+        else if (cartas == 'e'){
+            System.out.println("has elegido el mega esbirro ");        
+        
+        }
+        
+       
+        else {
+        
+            System.out.println("carta incorrecta");
+        }
+              }
+ 
+    
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
     }
     
 }
