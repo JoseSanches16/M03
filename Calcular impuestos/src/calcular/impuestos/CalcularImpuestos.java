@@ -1,4 +1,4 @@
-package calcular.impuestos;
+package Calcular.Impuestos;
 import java.util.Scanner;
 public class CalcularImpuestos {
   public static void main(String[] args) {
